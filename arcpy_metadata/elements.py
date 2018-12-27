@@ -387,7 +387,7 @@ elements = {
     ,
     "field": {
         "path": "eainfo/detailed/attr/",
-#        "tagname": "onLineSrc", # ?
+        "tagname": "fiel", 
         "type": "object_list",
         "elements": field_elements}
 # until here
