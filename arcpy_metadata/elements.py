@@ -386,7 +386,7 @@ elements = {
 # added this 
     ,
     "field": {
-        "path": "eainfo/detailed/attr",
+        "path": "eainfo/detailed",
         #type of parent_item doesn't cause errors, but can't call either
         "type": "string"
     #    ,"elements": field_elements
