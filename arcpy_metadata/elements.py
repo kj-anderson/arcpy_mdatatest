@@ -388,7 +388,8 @@ elements = {
     "field": {
         "path": "eainfo/detailed/attr",
         #type of parent_item doesn't cause errors, but can't call either
-        "type": "string",
-        "elements": field_elements}
+        "type": "string"
+    #    ,"elements": field_elements
+    }
 # until here
 }
