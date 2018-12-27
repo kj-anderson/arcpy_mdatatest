@@ -142,6 +142,17 @@ online_resource_elements = {
     },
 }
 
+# added this
+field_elements = {
+    "field_name": {
+        "path": "attrlabl",
+        "type": "string"},
+    "field_def": {
+        "path": "attrdef",
+        "type": "string"}
+}
+# until here
+
 elements = {
     "abstract": {
         "path": "dataIdInfo/idAbs",
@@ -370,13 +381,14 @@ elements = {
 
     "update_frequency_description": {
         "path": "dataIdInfo/resMaint/usrDefFreq/duration",
-        "type": "string"},
-
-    "field_name": {
-        "path": "eainfo/detailed/attr/attrlabl",
-        "type": "string"},
-        
-    "field_def": {
-        "path": "eainfo/detailed/attr/attrdef",
         "type": "string"}
+
+# added this 
+    ,
+    "field": {
+        "path": "eainfo/detailed/attr/",
+#        "tagname": "onLineSrc", # ?
+        "type": "object_list",
+        "elements": field_elements}
+# until here
 }
