@@ -386,9 +386,8 @@ elements = {
 # added this 
     ,
     "field": {
-        "path": "eainfo/detailed/",
-        "tagname": "attr", 
-        "type": "object_list",
+        "path": "eainfo/detailed/attr",
+        "type": "parent_item",
         "elements": field_elements}
 # until here
 }
