@@ -390,7 +390,7 @@ elements = {
         "tagname": "attr",
         #type of parent_item doesn't cause errors, but can't call either
         "type": "list"
-    #    ,"elements": field_elements
+        ,"elements": field_elements
     }
 # until here
 }
